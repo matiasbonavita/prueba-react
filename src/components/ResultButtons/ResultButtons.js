@@ -1,4 +1,5 @@
 import React from "react";
+import './resultbuttons.css'
 
 function ResultButtons(props) {
   const { monto, plazo } = props;

@@ -1,0 +1,96 @@
+
+.cuotaFijaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cuotaFijaResult{
+    background-color:rgba(0,53,93,255);
+    color:white;
+    display: flex;
+      width: 88%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 30px;
+  }
+  
+  .cuotaFijaText{
+    font-weight: 600;
+  }
+  
+  .cuotaFijaNumber{
+    font-size: 30px;
+    font-weight: 700;
+  
+  }
+  
+  .buttonContainer{
+    display: flex;
+      width: 100%;
+      justify-content: space-between;
+  }
+  
+  .buttonCredito{
+    background-color: rgba(23,170,141,255);
+    color:white;
+    border: none;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 69%;
+    cursor:pointer;
+  }
+  
+  .buttonCuotas{
+    background-color:#0b538b;
+    color:white;
+    border: none;
+    padding: 10px 22px;
+    width: 29%;
+    font-weight: 600;
+    cursor:pointer;
+  }
+  
+  .minMaxPlazo{
+    padding: 0 23px
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    .buttonCredito{
+      width:unset;
+    }
+  
+    .buttonCuotas{
+      width:unset;
+    }
+  
+    .cuotaFijaResult{
+      width: 94%;
+      padding: 15px 11px;
+    }
+  
+    .cuotaFijaNumber{
+      font-size: 20px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 380px) {
+  
+    .cuotaFijaResult{
+      width:unset;
+      padding:0;
+    }
+  
+    .buttonContainer{
+      display:block;
+    }
+  
+    .cuotaFijaContainer{
+      text-align: center;
+    }
+  
+  }

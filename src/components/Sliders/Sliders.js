@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import ResultButtons from "./ResultButtons";
+import ResultButtons from "../ResultButtons/ResultButtons";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './sliders.css'
 
 
 
